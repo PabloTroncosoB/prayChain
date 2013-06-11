@@ -1,0 +1,38 @@
+		body{
+			font-size:16px;
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   			font-weight: 300;
+   		}
+		table{
+			border:2px solid #808080;
+			border-radius: 15px;
+			width:320px;
+			height:200px;
+			border-collapse: collapse;
+			}
+		td{
+			border-bottom:1px solid #808080;
+			
+		}
+		.texto{
+			width:250px;
+			font-size: 14px
+		}
+		.leyenda{
+			width:70px;
+			text-align: right;
+		}
+		
+		.boton{
+			font-size:16px;
+			border-radius: 5px;
+			margin-top:10px;
+			padding :5px;
+		}
+		.needsfilled{
+			border:3px solid red ;
+		}
+		.error{
+			color: red;
+			font-weight: bold;
+		}
