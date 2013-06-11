@@ -1,7 +1,7 @@
 <?php
 	//error_reporting(E_ALL);
  	//ini_set("display_errors", 1);
-	include "con.php";
+	include "con2.php";
 	$idarchivo=mataInjection($_GET['a']);
 	$ruta="";
 	$sql="SELECT * from fichero where id = '".$idarchivo."'";
